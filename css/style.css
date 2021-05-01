@@ -1,0 +1,361 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(164, 205, 211);
+}
+/* logo section ........................... */
+#header{
+    background-color: #908903;
+    height: 185px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+.logo img{
+    width: 150px;
+    position: relative;
+    left: 20px;
+    height: 150px;
+    margin: 10px;
+    /* border: 2px solid red; */
+    /* border-radius: 50%; */
+}
+.logoname{
+    /* margin: 0px; */
+    position: absolute;
+    left: 200px;
+    display: flex;
+    top: 50px;
+    font-size: 4rem;
+    font-family: cursive;
+    color: #003664;
+    text-shadow:3px 3px 0px red;
+}
+
+/* search box .......................... */
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body{
+  background: #f2f2f2;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.search {
+    width: 100%;
+    position: relative;
+    display: flex;
+    /* top: -105px;
+    left: 440px; */
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #00B4CC;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus{
+  color: #00B4CC;
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #00B4CC;
+  background: #00B4CC;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 30%;
+  position: absolute;
+  top: 80px;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  z-index: +5;
+}
+
+
+
+/* menubar..................................... */
+.menu ul{
+    display: flex;
+    position: relative;
+    background-color: #9fd2b4;
+    /* bottom: 18px; */
+    list-style: none;
+    /* width: 840px; */
+    border-bottom:2px solid rgb(150, 140, 121);
+    position: relative;
+}
+.menu ul li {
+    /* border: 2px solid red; */
+    margin: 0px 20px;
+    padding: 6px 14px; 
+    font-family: cursive;
+    /* background: darkcyan; */
+    /* background-color: #ece3e3; */
+    
+}
+.menu ul li a {
+    text-decoration: none;
+    color: brown;
+    font-weight: bold;
+    
+}
+.menu ul li a:hover{
+    /* background-color: #ece3e3; */
+    border-radius: 22px;
+    transition: 0.3s;
+    color: black;
+    text-decoration: underline;
+    /* font-size: 17px; */
+}
+.container{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(158, 168, 173);
+    
+}
+.pics{
+    border: 3px solid #203e20;
+    margin: 30px 70px;
+    border-radius: 13px;
+    width: 285px;
+    height: 310px;
+}
+
+.pics img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 285px;
+    height: 265px;
+    margin-bottom: 10px;    
+    border-radius: 13px 13px 0px 0px;
+    box-sizing: border-box;
+    
+}
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 285px;
+    /* height: 270px; */
+    background-color: rgb(189, 154, 154);
+    /* border:2px solid tomato; */
+}
+.text a{
+    /* margin: 0px 70px; */
+    text-decoration: none;
+    /* width: 100%; */
+    font-size: 20px;
+}
+/* all About books with branch and links.................... */
+#pdf-section{
+    height: 580px;
+}
+ #booksection{
+     display: flex;
+     margin: 0px 10px;
+    }
+    
+    /* branch portion...................... */
+    
+    .branch{
+        width: 50%;
+        height: 500px;
+        border: 2px solid red;
+        display: block;
+        text-align: center;
+        background-color: rgb(216, 171, 230);
+        border-radius: 30px;
+        margin-top: 10px;
+    }
+    .branch a{
+        background-color: darkolivegreen;
+        color: white;
+        font-size: 40px;
+        display: block;
+        margin: 10px;
+        padding:8px;
+        border-radius: 10px;
+
+        /* cursor: pointer; */
+
+    }
+    .trade ul{ 
+        margin-top: 50px;
+    }
+    
+    .trade a{
+        background-color: darkslategrey;
+        display: block; 
+        color: rgb(26, 243, 26);
+        font-size: 20px;
+        margin: 10px auto; 
+        line-height: 30px;
+        width: 65%;
+        padding: 1px 7px;
+        text-decoration: none;
+        text-decoration: none;
+        border: 2px solid greenyellow;
+        /* line-height: 30px; */
+    }
+     /*photos of books portion...................... */
+
+    .book{
+        width: 50%;
+        height: 500px;
+        margin-left: 5px;
+        border: 2px solid red;
+        text-align: center;
+        background-color: rgb(216, 171, 230);
+        border-radius: 30px;
+        margin-top: 10px;
+    }
+    .book a{
+        display: block;
+        background-color: darkolivegreen;
+        font-size: 40px;
+        margin: 10px;
+        padding:  8px;
+        border-radius: 10px;
+        color: white;
+        /* cursor: pointer; */  
+    }
+    .books{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* border: 2px solid rgb(11, 194, 5); */
+        background-color: #a8a0dd;
+        height: 175px;
+    }
+    .new{position: relative;
+        top: 30px;
+
+    }
+    #new-book{
+        position: relative;
+        top: 30px;
+        /* top: 30px;  */
+    }
+    #version{
+        border: 2px solid rgb(56, 56, 3);
+        display: flex;
+        position: relative;
+        background-color: darkslategrey;
+        color: cornsilk;
+        font-size: 2em;
+        /* left: 5px; */
+    }
+    .pic{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #a1c7a191;
+        color: white;
+        border-radius: 8px;
+        border: 2px solid #396735;
+        height: 150px;
+        width: 150px;
+        margin: 10px 20px;
+    }
+    .pic img{
+        display: flex;
+        border: 2px solid darkgoldenrod;
+        background-color: plum;
+        width: 60px;
+        padding: 10px;
+        margin: 5px;
+        height: 80px;
+
+    }
+
+    /* Contact form ................................................ */
+    
+   #contact-form form{
+       border: 2px solid blue;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       flex-direction: column;
+       background-color: burlywood;
+   }
+   .contact{
+       margin: 30px 0px;
+       border:5px solid rgb(79, 119, 117);
+       display: flex;
+       border-radius: 10px;
+       background-color: teal;
+       height: 500px;
+       flex-direction: column;
+   }
+   .contact input[type=text]{
+       padding: 10px;
+       width: 600px;
+       border-radius: 5px;
+       border: grey;
+       margin: 10px;
+   }
+   #message{
+    padding: 10px;
+    width: 600px;
+    border-radius: 5px;
+    border: grey;
+    margin: 10px;
+
+   }
+   .form-text{
+       font-size: 20px;
+       display: flex;
+       position: relative;
+       left: 12px;
+
+   }
+   #submit{
+    padding: 8px;
+    width: 620px;
+    border-radius: 5px;
+    border:1px solid white;
+    background-color: rgb(59, 151, 187);
+    margin: 10px;
+    cursor: pointer;
+    font-size: 20px;
+
+   }
+
+   /* Footer................................. */
+   footer{
+       background-color: black;
+       color: white;
+       padding: 10px; 
+       display: flex;
+        font-size: 15px; ;
+       justify-content: center;
+       align-items: center;
+
+   }
+    
